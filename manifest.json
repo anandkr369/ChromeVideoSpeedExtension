@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Speed Teezer",
+    "version": "1.0",
+    "description": "Video playback speed!",
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
