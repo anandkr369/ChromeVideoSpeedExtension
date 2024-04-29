@@ -33,3 +33,4 @@ document.addEventListener('DOMContentLoaded', function () {
     speedInc.addEventListener('click', incrUi);
     speedDec.addEventListener('click', decrUi);
 });
+//done
